@@ -17,8 +17,10 @@ jobs:
     name: Cowsays
     runs-on: ubuntu-latest
     needs: job1
-    uses: mscoutermarsh/cowsays-action@v1
-    with:
-      text: "Hola!"
-      color: blue
+    steps:
+      - name: cow
+      uses: mscoutermarsh/cowsays-action@v1
+      with:
+        text: "Hola!"
+        color: "blue"
         
