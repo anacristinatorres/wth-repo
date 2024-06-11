@@ -19,8 +19,7 @@ jobs:
     needs: job1
     steps:
       - name: cow
-      uses: mscoutermarsh/cowsays-action@v1
-      with:
-        text: "Hola!"
-        color: "blue"
-        
+        uses: mscoutermarsh/cowsays-action@v1
+        with:
+          text: "Hola!"
+          color: "blue"
